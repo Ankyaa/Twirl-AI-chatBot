@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "question": "Hi!!",
+      "answer": "Hi mate!"
+    },
+    {
+      "question": "Hi buddy",
+      "answer": "Hi mate!"
+    },
+    {
+      "question": "hi",
+      "answer": "hello"
+    },
+    {
+      "question": "& C:/Users/Ankita.Parit/AppData/Local/Programs/Python/Python312/python.exe \"c:/Users/Ankita.Parit/Documents/python trials/AI chatbot.py\"",
+      "answer": "& C:/Users/Ankita.Parit/AppData/Local/Programs/Python/Python312/python.exe \"c:/Users/Ankita.Parit/Documents/python trials/AI chatbot.py\""
+    },
+    {
+      "question": "how are you?",
+      "answer": "i'm fine"
+    },
+    {
+      "question": "great!",
+      "answer": "How about you?"
+    },
+    {
+      "question": "I'm doing good!",
+      "answer": "cool"
+    }
+  ]
+}
