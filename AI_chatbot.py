@@ -18,12 +18,12 @@ def save_knowlegde_base(file_path:str, data:dict):
         json.dump(data, file, indent=2)
 
 #to find the best match of the user response from dictionary
-def find_best_match(user_question:str, questions:list[str]) ->str | None:
+def find_best_match(user_question:str, questions:list[str]) ->str or None:
     matches :list = get_close_matches(user_question,questions,n=1, cutoff=0.6) #n here is the no of best matches here. if set to 2 the it will return top 2 best matches
     return matches[0] if matches else None
 
 #to get the answer
-def get_answer_for_question (question:str, knowledge_base:dict) -> str | None:
+def get_answer_for_question (question:str, knowledge_base:dict) -> str or None:
     for q in knowledge_base ["questions"]:
         if q["question"] == question:
             return q["answer"]
