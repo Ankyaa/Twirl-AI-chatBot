@@ -1,6 +1,9 @@
+import streamlit as st
 import json
 from difflib import get_close_matches
 
+#to add title to my Twirl AI chatbot
+st.title('Twirl - AI chatbot')
 
 #to load the knowledge base into the py program
 def load_knowledge_base(file_path:str) -> dict: #arrow indicates return. example load_knowledge base function will return str or none.
